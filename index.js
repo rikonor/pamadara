@@ -10,12 +10,12 @@ function Pamadara() {
 /*
   Start a timer with an optional cb to be run after the timer is complete
 */
-Pamadara.prototype.startTimer = function(startTime, endTime, cb) {
+Pamadara.prototype.startTimer = function(cb) {
   // Generate a unique ID
   var id = uuid.v4();
 
-  var startTime = startTime || moment();
-  var endTime = endTime || startTime.add(25, 'minutes');
+  var startTime = moment();
+  var endTime = startTime.add(25, 'minutes');
 
   var timer = {
     _id: id,
