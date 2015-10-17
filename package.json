@@ -1,0 +1,23 @@
+{
+  "name": "pamadara",
+  "version": "1.0.0",
+  "description": "A pomodoro timer with a different name",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rikonor/pamadara.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "timer"
+  ],
+  "author": "Or Rikon",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rikonor/pamadara/issues"
+  },
+  "homepage": "https://github.com/rikonor/pamadara#readme"
+}
