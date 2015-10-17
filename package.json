@@ -1,6 +1,6 @@
 {
   "name": "pamadara",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A pomodoro timer with a different name",
   "main": "lib/pamadara.js",
   "scripts": {
